@@ -1,0 +1,17 @@
+{
+	"name": "DS_JSON_CUSTOMERS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1Customers",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	}
+}

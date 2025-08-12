@@ -1,0 +1,22 @@
+{
+	"name": "DS_CSV_MARKETING",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1Marketing",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "singhpradeep8930/MARKETING/refs/heads/main/marketing.csv?token=GHSAT0AAAAAADI6GFYML7FVKWOQVLJXRL3Y2E22W7Q"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
