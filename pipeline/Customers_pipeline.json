@@ -46,7 +46,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_CSV_CUSTOMER_SINK",
+						"referenceName": "DS_CUSTOMER_SINK",
 						"type": "DatasetReference"
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"name": "DS_CSV_CUSTOMER_SINK",
+	"name": "DS_CUSTOMER_SINK",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1_Sink",
@@ -10,8 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "customers.csv",
-				"fileSystem": "bronze"
+				"fileName": "Customers.csv",
+				"folderPath": "bronze",
+				"fileSystem": "container1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
