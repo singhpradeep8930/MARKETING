@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Dtafactory12"
+		},
+		"AzureBlobStorage_ORDERS_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_Sink_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_Sink_properties_typeProperties_url": {
+			"value": "https://adlscapstones.dfs.core.windows.net/"
+		},
+		"HttpServer1Customers_properties_typeProperties_url": {
+			"value": "https://capstonefaccp.azurewebsites.net/api/HttpTrigger1?"
+		},
+		"HttpServer1Marketing_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
