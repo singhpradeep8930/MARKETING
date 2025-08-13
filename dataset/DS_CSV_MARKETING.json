@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "singhpradeep8930/MARKETING/refs/heads/main/marketing.csv?token=GHSAT0AAAAAADI6GFYML7FVKWOQVLJXRL3Y2E22W7Q"
+				"relativeUrl": "singhpradeep8930/MARKETING/refs/heads/main/marketing.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
