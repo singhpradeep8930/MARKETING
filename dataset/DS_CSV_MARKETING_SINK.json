@@ -11,7 +11,8 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "marketing.csv",
-				"fileSystem": "bronze"
+				"folderPath": "bronze",
+				"fileSystem": "container1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

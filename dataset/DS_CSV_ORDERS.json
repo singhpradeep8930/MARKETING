@@ -2,15 +2,15 @@
 	"name": "DS_CSV_ORDERS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1_Sink",
+			"referenceName": "AzureBlobStorage_ORDERS",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileSystem": "sourcecapstone"
+				"type": "AzureBlobStorageLocation",
+				"container": "orders"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
