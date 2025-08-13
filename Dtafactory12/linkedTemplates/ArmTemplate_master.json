@@ -21,7 +21,7 @@
 		},
 		"HttpServer1Customers_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://capstonefaccp.azurewebsites.net/api/HttpTrigger1?"
+			"defaultValue": "https://capsfunctionapptoday.azurewebsites.net/api/HttpTrigger1?"
 		},
 		"HttpServer1Marketing_properties_typeProperties_url": {
 			"type": "string",

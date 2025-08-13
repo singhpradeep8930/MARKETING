@@ -15,7 +15,7 @@
 			"value": "https://adlscapstones.dfs.core.windows.net/"
 		},
 		"HttpServer1Customers_properties_typeProperties_url": {
-			"value": "https://capstonefaccp.azurewebsites.net/api/HttpTrigger1?"
+			"value": "https://capsfunctionapptoday.azurewebsites.net/api/HttpTrigger1?"
 		},
 		"HttpServer1Marketing_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com"

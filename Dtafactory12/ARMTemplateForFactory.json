@@ -21,7 +21,7 @@
 		},
 		"HttpServer1Customers_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://capstonefaccp.azurewebsites.net/api/HttpTrigger1?"
+			"defaultValue": "https://capsfunctionapptoday.azurewebsites.net/api/HttpTrigger1?"
 		},
 		"HttpServer1Marketing_properties_typeProperties_url": {
 			"type": "string",
@@ -349,7 +349,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "HttpServerLocation",
-						"relativeUrl": "singhpradeep8930/MARKETING/refs/heads/main/marketing.csv?token=GHSAT0AAAAAADI6GFYML7FVKWOQVLJXRL3Y2E22W7Q"
+						"relativeUrl": "singhpradeep8930/MARKETING/refs/heads/main/marketing.csv"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
