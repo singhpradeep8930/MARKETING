@@ -17,7 +17,7 @@
 		},
 		"AzureDataLakeStorage1_Sink_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://adlscapstones.dfs.core.windows.net/"
+			"defaultValue": "https://sandeepstorals.dfs.core.windows.net/"
 		},
 		"HttpServer1Customers_properties_typeProperties_url": {
 			"type": "string",

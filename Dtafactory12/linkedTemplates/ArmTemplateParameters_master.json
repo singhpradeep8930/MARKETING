@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"AzureDataLakeStorage1_Sink_properties_typeProperties_url": {
-			"value": "https://adlscapstones.dfs.core.windows.net/"
+			"value": "https://sandeepstorals.dfs.core.windows.net/"
 		},
 		"HttpServer1Customers_properties_typeProperties_url": {
 			"value": "https://capsfunctionapptoday.azurewebsites.net/api/HttpTrigger1?"
